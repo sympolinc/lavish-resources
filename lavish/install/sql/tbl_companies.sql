@@ -1,0 +1,22 @@
+CREATE TABLE `%pre%tbl_companies` (
+  `master_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'The primary identifier of companies',
+  `comp_id` varchar(5) NOT NULL COMMENT 'An user-assigned unique identifier. For differentiating between companies.',
+  `comp_name` varchar(250) NOT NULL COMMENT 'The company''s full name. Preferrably the legal name of the company.',
+  `ar_contact` varchar(250) NOT NULL COMMENT 'The Accounts/ Receivables contact name.',
+  `ap_contact` varchar(250) DEFAULT NULL COMMENT 'The Accounts/ Payable contact name.',
+  `comp_addr_1` varchar(250) DEFAULT NULL COMMENT 'Line 1 of the Address. Should contain block, street direction, street type.',
+  `comp_addr_2` varchar(250) DEFAULT NULL COMMENT 'Line 2 of the Address. Should contain unit information.',
+  `comp_city` varchar(250) DEFAULT NULL COMMENT 'The town or city of the company.',
+  `comp_location` varchar(250) DEFAULT NULL COMMENT 'The state or province of the company.',
+  `comp_postal` varchar(10) DEFAULT NULL COMMENT 'The postal code for the company.',
+  `comp_country` varchar(250) DEFAULT NULL COMMENT 'The country of the company.',
+  `comp_tel_1` varchar(25) DEFAULT NULL COMMENT 'The primary telephone of the company. This should be the primary facing number.',
+  `comp_tel_2` varchar(25) DEFAULT NULL COMMENT 'The secondary telephone of the company. This should be an after hours or escalation number.',
+  `comp_fax` varchar(25) DEFAULT NULL COMMENT 'The company fax number.',
+  `comp_email` varchar(250) DEFAULT NULL COMMENT 'The companies email. Should be an email that is generalized for all contact types. ',
+  `comp_website` varchar(250) DEFAULT NULL COMMENT 'The company website. Should be the home page.',
+  `tax_id` varchar(45) DEFAULT NULL COMMENT 'The company federal tax id.',
+  PRIMARY KEY (`master_id`),
+  UNIQUE KEY `comp_id_UNIQUE` (`comp_id`),
+  UNIQUE KEY `comp_name_UNIQUE` (`comp_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Manage Companies within a single lr Application installation.';

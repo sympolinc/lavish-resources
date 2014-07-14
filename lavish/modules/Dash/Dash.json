@@ -1,0 +1,23 @@
+{
+    "author": "Eric Bentley",
+    "name": "Dash",
+    "copyright": "sympol foundation %year%",
+    "version": "1.0.0.0",
+    "description": "The default view of the lavish resource software. A customizable dashboard that displays widgets and dashlets.",
+    "website": "http://www.sympol.net",
+    "support": "Go To %link=http://sympol.net%",
+    "topMenu": {
+        "en": {
+            "text": "Dash",
+            "url": "/"
+        },
+        "es":{
+            "text":"salpicadero",
+            "url":"/"
+        },
+        "fr":{
+            "text":"tableau de bord",
+            "url":"/"
+        }
+    }
+}

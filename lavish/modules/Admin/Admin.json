@@ -1,0 +1,113 @@
+{
+    "author": "Eric Bentley",
+    "name": "Administrator",
+    "copyright": "sympol foundation %year%",
+    "version": "1.0.0.0",
+    "description": "The admin module. User that have access to this module will be able to admin the software, including adding and removing fields, installing components, configuring modules and views, adding and removing users, managing menus, etc...",
+    "website": "http://www.sympol.net",
+    "support": "Go To %link=http://sympol.net%",
+    "topMenu": {
+        "en": {
+            "text": "Admin",
+            "url": "?module=Admin",
+            "items": [{
+                "text": "Components",
+                "url": "?module=Admin&view=Main",
+                "items": [{
+                    "text": "Module Manager",
+                    "url": "?module=Admin&view=ModuleManager"
+                }, {
+                    "text": "Plugin Manager",
+                    "url": "?module=Admin&view=PluginManager"
+                }, {
+                    "text": "Widget Manager",
+                    "url": "?module=Admin&view=WidgetManager"
+                }, {
+                    "text": "Dashlet Manager",
+                    "url": "?module=Admin&view=DashletManager"
+                }]
+            }, {
+                "text": "User",
+                "url": "?module=Admin&view=UserManager",
+                "items": [{
+                    "text": "User Manager",
+                    "url": "?module=Admin&view=UserManager"
+                }, {
+                    "text": "New User",
+                    "url": "?module=Admin&view=UserManager&action=Add"
+                }]
+            }, {
+                "text": "Company Manager",
+                "url": "?module=Admin&view=CompanyManager"
+            }]
+        },
+        "es": {
+        "text": "administración",
+            "url": "?module=Admin",
+            "items": [{
+                "text": "Componentes",
+                "url": "?module=Admin&view=Main",
+                "items": [{
+                    "text": "Administrador de módulos",
+                    "url": "?module=Admin&view=ModuleManager"
+                }, {
+                    "text": "Administrador de Plug-in",
+                    "url": "?module=Admin&view=PluginManager"
+                }, {
+                    "text": "Administrador de widgets",
+                    "url": "?module=Admin&view=WidgetManager"
+                }, {
+                    "text": "Administrador de Dashlet",
+                    "url": "?module=Admin&view=DashletManager"
+                }]
+            }, {
+                "text": "usuario",
+                "url": "?module=Admin&view=UserManager",
+                "items": [{
+                    "text": "Administrador de usuarios",
+                    "url": "?module=Admin&view=UserManager"
+                }, {
+                    "text": "Nuevo usuario",
+                    "url": "?module=Admin&view=UserManager&action=Add"
+                }]
+            }, {
+                "text": "Administrador de la empresa",
+                "url": "?module=Admin&view=CompanyManager"
+            }]
+        },
+        "fr": {
+        "text": "administrateur",
+            "url": "?module=Admin",
+            "items": [{
+                "text": "des composants",
+                "url": "?module=Admin&view=Main",
+                "items": [{
+                    "text": "Gestionnaire de modules",
+                    "url": "?module=Admin&view=ModuleManager"
+                }, {
+                    "text": "Gestionnaire d'extension",
+                    "url": "?module=Admin&view=PluginManager"
+                }, {
+                    "text": "Gestionnaire de widgets",
+                    "url": "?module=Admin&view=WidgetManager"
+                }, {
+                    "text": "Gestionnaire de Dashlet",
+                    "url": "?module=Admin&view=DashletManager"
+                }]
+            }, {
+                "text": "utilisateur",
+                "url": "?module=Admin&view=UserManager",
+                "items": [{
+                    "text": "Gestionnaire des utilisateurs",
+                    "url": "?module=Admin&view=UserManager"
+                }, {
+                    "text": "Nouvel utilisateur",
+                    "url": "?module=Admin&view=UserManager&action=Add"
+                }]
+            }, {
+                "text": "Gestionnaire de l'entreprise",
+                "url": "?module=Admin&view=CompanyManager"
+            }]
+        }
+    }
+}

@@ -1,0 +1,161 @@
+html{
+  font-family: 'Asap', sans-serif;
+}
+
+.lr-dash-wrap {
+  display: table;
+  margin: 0 0 20px;
+  width: 100%;
+}
+.lr-dash-column {
+  min-height: 200px;
+  width: 33%;
+  display: table-cell;
+  padding-bottom: 10px;
+  vertical-align: top;
+  min-width: 250px;
+}
+.lr-widget-wrap {
+  padding: 5px;
+  width: 96%;
+  vertical-align: top;
+}
+.lr-widget {
+  max-width: 500px;
+  vertical-align: top;
+  min-width: 80px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.lr-widget .lr-widget-header {
+  padding: 2px 5px;
+  color: #676767;
+  background-image: none, -webkit-linear-gradient(top, rgba(0,0,0,.01) 0%, rgba(0,0,0,.08) 100%);
+  background-image: none, -moz-linear-gradient(top, rgba(0,0,0,.01) 0%, rgba(0,0,0,.08) 100%);
+  background-image: none, -o-linear-gradient(top, rgba(0,0,0,.01) 0%, rgba(0,0,0,.08) 100%);
+  background-image: none, linear-gradient(to bottom, rgba(0,0,0,.01) 0%, rgba(0,0,0,.08) 100%);
+  border-bottom: 1px solid #cccccc;
+}
+.lr-widget .lr-widget-header table {
+  table-layout: fixed;
+  width: 100%;
+}
+.lr-widget .lr-widget-header .lr-widget-header-title {
+  overflow: hidden;
+  text-align: left;
+}
+.lr-widget .lr-widget-header .lr-widget-ctrl-box {
+  overflow: hidden;
+  text-align: right;
+}
+.lr-widget .lr-widget-content {
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lr-widget .lr-chat-item {
+  border-bottom: 1px solid #cccccc;
+  font-size: 85%;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+}
+.lr-widget .lr-chat-item .lr-chat-info {
+  border-bottom: 1px dotted #cccccc;
+}
+.lr-widget .lr-chat-item .lr-chat-user {
+  float: left;
+  color: blue;
+}
+.lr-widget .lr-chat-item .lr-chat-time {
+  float: right;
+  font-style: oblique;
+}
+.lr-widget .lr-chat-item .lr-chat-msg {
+  padding: 5px;
+}
+.lr-widget .lr-chat-item:last-of-type {
+  border-bottom: none;
+}
+.lr-widget-clock-wrapper {
+  display: block;
+  text-align: center;
+}
+.lr-widget-clock-wrapper .lr-widget-clock-inner {
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  overflow: hidden;
+}
+.lr-widget-clock-wrapper .lr-widget-clock-inner table {
+  margin: 0 auto;
+  table-layout: fixed;
+}
+.lr-widget-clock-wrapper .lr-widget-clock-inner table td {
+  font-size: 400%;
+  width: 80px;
+  text-align: center;
+}
+.lr-widget-clock-wrapper .lr-widget-clock-inner table td.lr-widget-clock-colon {
+  text-align: center;
+  width: 15px;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.lr-widget-goog-form {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  padding: 15px;
+}
+.lr-widget-goog-form .lr-widget-goog-ctrl {
+  margin: 0 auto;
+  min-width: 100%;
+}
+.lr-widget-goog-form .lr-widget-goog-ctrl a {
+  cursor: pointer;
+}
+.lr-widget-goog-form .lr-widget-goog-opts {
+  text-align: left;
+}
+.lr-widget-goog-form .lr-widget-goog-opts .lr-widget-goog-opt-contain {
+  padding-left: 20px;
+}
+.lr-widget-goog-form .lr-widget-goog-opts input {
+  margin-right: 10px;
+}
+.lr-widget-goog-form .lr-widget-goog-opts .lr-widget-goog-opts-header {
+  margin: 0;
+  cursor: pointer;
+}
+
+.lr-center {
+  margin: 10px auto;
+}
+
+.lr-col-6{
+  width:50%;
+}
+.lr-col-8{
+  width:66.6667%;
+}

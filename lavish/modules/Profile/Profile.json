@@ -1,0 +1,23 @@
+{
+    "author": "Eric Bentley",
+    "name": "Profile",
+    "copyright": "sympol foundation %year%",
+    "version": "1.0.0.0",
+    "description": "The user level profile manager.",
+    "website": "http://www.sympol.net",
+    "support": "Go To %link=http://sympol.net%",
+    "topMenu": {
+        "en": {
+            "text": "Profile",
+            "url": "?module=Profile&view=Main"
+        },
+        "es":{
+            "text":"perfil",
+            "url":"?module=Profile&view=Main"
+        },
+        "fr":{
+            "text":"Profil",
+            "url":"?module=Profile&view=Main"
+        }
+    }
+}
